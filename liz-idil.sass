@@ -1,0 +1,134 @@
+// base.css file
+/* base.css */
+
+body
+  font:
+    family: sans-serif
+    size: 1.25 em
+    color: #555
+  line:
+    height: 1.3 em
+  background:
+    color: #f0f0f0
+
+h1, h2, h3
+  font:
+    family: 'kameron', sans-serif
+    weight: bold
+  color: #333
+
+h1
+  font
+    size: 2.25em
+  line
+    height: 1.2em;
+  color: #a6005
+
+h2
+  font
+    siz: 1.875em
+  line
+    height: 1em
+  color: #0040ab
+
+h3
+  font
+    size: 1.6em
+  line
+    height: 0.8em
+  color: #444
+
+a
+  color: #0040ab
+  text
+    decoration: underline
+  &:hover
+    color: #a60005
+
+input, textarea
+  border: none
+  line-height: 1.5em
+  padding: 5px
+  &:focus
+    outline: solid 2px #0040ab
+
+.btn
+  font:
+    family: kameron, sans-serif
+    weight: bold
+  color: #fff
+  background-color: #0040ab
+  border: none
+  &:active
+    opacity: 0.8
+
+
+// layout.css
+/* layout */
+
+header, footer
+  background-color: #a60005
+
+
+header h1, footer
+  color: #fff
+  text:
+    align: center
+  padding: 1.8em 0
+
+.logo
+  position: absolute
+  left: 1em
+  top: 1em
+
+.chatbox
+  position: absolute
+  right: 1em
+  top: 1em
+
+.nav-container
+  position: absolute
+  left: 0
+  width: 25%
+
+main
+  margin: 0 25%
+
+
+//navigation
+/* navigation */
+.nav-container
+  margin: 1em
+
+nav
+  background-color: #969696
+  width: 88%
+  padding: .2em 0
+  a
+    display: block
+    background-color: #f0f0f0
+    line-height: 1em
+    margin: .5em
+    padding: .2em
+    text:
+      decoration: none
+      align: center
+    font:
+      weight: bold
+
+// form
+/* form */
+form
+  width: 50%
+  margin: auto
+
+label, input, textarea, legend
+  display: block
+  width: 100%
+  text
+    align: center
+  padding: .25em
+  line
+    height: 2em
+
+
