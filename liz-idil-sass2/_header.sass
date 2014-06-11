@@ -1,4 +1,5 @@
 //header
+// Converted to sass from header.css
 
 header
   width: 100%
@@ -12,14 +13,15 @@ header
   text-decoration: none
   display: inline
 
+// a.logo also had text-decoration: none and display: inline, so used an extend of .logo instead to eliminate duplication
 h1
   a.logo
-    color: #ffffff
+    color: $white
     @extend .logo
 
 
 .test
   text-decoration: none
-  color: #ffffff
+  color: $white
   font-size: 2em
   display: inline
