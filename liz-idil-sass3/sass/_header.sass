@@ -1,0 +1,27 @@
+//header
+// Converted to sass from header.css
+@import "header/_manifest"
+
+header
+  width: 100%
+  background-color: #313131
+  position: fixed
+  top: 0
+  z-index: 1000
+  margin: 0
+
+.logo
+  @extend %logo
+
+// a.logo also had text-decoration: none and display: inline, so used an extend of .logo instead to eliminate duplication
+h1
+  a.logo
+    color: $white
+    @extend %logo
+
+
+.test
+  text-decoration: none
+  color: $white
+  font-size: 2em
+  display: inline
